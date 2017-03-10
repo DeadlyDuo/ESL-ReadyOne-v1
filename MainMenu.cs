@@ -36,21 +36,27 @@ namespace ESL_ReadyOne_v1
         private void Label_FirstTimeSetup_MouseEnter(object sender, EventArgs e)
         {
             Pic_IndicatorTop.Visible = true;
+            Label_FirstTimeSetup.BackColor = Color.Tan;
+            Label_FirstTimeSetup.Font = new Font("Tw Cen MT", 50, FontStyle.Underline | FontStyle.Bold);
         }
         private void Label_FirstTimeSetup_MouseLeave(object sender, EventArgs e)
         {
             Pic_IndicatorTop.Visible = false;
+            Label_FirstTimeSetup.BackColor = Color.Transparent;
+            Label_FirstTimeSetup.Font = new Font("Tw Cen MT", 50, FontStyle.Bold);
         }
 
 
         private void Label_ReadyToPlay_MouseEnter(object sender, EventArgs e)
         {
             Pic_IndicatorBottom.Visible = true;
+            Label_ReadyToPlay.BackColor = Color.LightSkyBlue;
         }
 
         private void Label_ReadyToPlay_MouseLeave(object sender, EventArgs e)
         {
             Pic_IndicatorBottom.Visible = false;
+            Label_ReadyToPlay.BackColor = Color.Transparent;
         }
 
         

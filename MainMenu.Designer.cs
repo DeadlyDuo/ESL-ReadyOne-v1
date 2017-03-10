@@ -55,11 +55,12 @@
             // Label_ReadyToPlay
             // 
             this.Label_ReadyToPlay.BackColor = System.Drawing.Color.Transparent;
+            this.Label_ReadyToPlay.Cursor = System.Windows.Forms.Cursors.Hand;
             this.Label_ReadyToPlay.Font = new System.Drawing.Font("Tw Cen MT", 50F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Label_ReadyToPlay.ForeColor = System.Drawing.SystemColors.Control;
-            this.Label_ReadyToPlay.Location = new System.Drawing.Point(106, 347);
+            this.Label_ReadyToPlay.Location = new System.Drawing.Point(106, 341);
             this.Label_ReadyToPlay.Name = "Label_ReadyToPlay";
-            this.Label_ReadyToPlay.Size = new System.Drawing.Size(649, 72);
+            this.Label_ReadyToPlay.Size = new System.Drawing.Size(501, 78);
             this.Label_ReadyToPlay.TabIndex = 3;
             this.Label_ReadyToPlay.Text = "READY TO PLAY";
             this.Label_ReadyToPlay.MouseEnter += new System.EventHandler(this.Label_ReadyToPlay_MouseEnter);
@@ -80,11 +81,13 @@
             // Label_FirstTimeSetup
             // 
             this.Label_FirstTimeSetup.BackColor = System.Drawing.Color.Transparent;
+            this.Label_FirstTimeSetup.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Label_FirstTimeSetup.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Label_FirstTimeSetup.Font = new System.Drawing.Font("Tw Cen MT", 50F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Label_FirstTimeSetup.ForeColor = System.Drawing.SystemColors.Control;
-            this.Label_FirstTimeSetup.Location = new System.Drawing.Point(106, 212);
+            this.Label_FirstTimeSetup.Location = new System.Drawing.Point(106, 205);
             this.Label_FirstTimeSetup.Name = "Label_FirstTimeSetup";
-            this.Label_FirstTimeSetup.Size = new System.Drawing.Size(535, 72);
+            this.Label_FirstTimeSetup.Size = new System.Drawing.Size(535, 79);
             this.Label_FirstTimeSetup.TabIndex = 1;
             this.Label_FirstTimeSetup.Text = "FIRST TIME SETUP";
             this.Label_FirstTimeSetup.Click += new System.EventHandler(this.Label_FirstTimeSetup_Click);
